@@ -1,0 +1,3 @@
+<resources>
+    <string name="service_description">Opens Jellyfin with the Netflix button. Optional scheduled arrow lock uses media playback state and remote proximity. Does not read screen content.</string>
+</resources>

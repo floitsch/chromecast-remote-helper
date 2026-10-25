@@ -1,0 +1,12 @@
+build/
+*.apk
+*.idsig
+*.keystore
+*.key
+*.pem
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.idea/
+local.properties

@@ -1,0 +1,11 @@
+name: Checks
+on: [push, pull_request]
+jobs:
+  policy-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check build scripts
+        run: bash -n build.sh test.sh
+      - name: Schedule, playback, and proximity policy
+        run: bash test.sh
